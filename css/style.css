@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: rgb(236, 234, 234);
+}
+
+#exibicaoProduto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    margin-top: 10px ;
+    width: 200px;
+    height: 100px;
+}
+
+p{
+    margin: 20px 20px;;
+    color: #8f897a;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.container{
+    margin: 30px;
+    padding-top: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    text-wrap: nowrap;
+}
+
+label{
+    font-size: 1.5rem;
+    margin: 20px 0;
+    background-color: #8f897a;
+    color: white;
+    padding: 20px 20px;
+    width: 200px;
+    text-align: center;
+}
+
+input, select{
+    margin-bottom: 20px;
+    padding: 05px 20px;
+    width: 200px;
+    text-align: center;
+    outline: none;
+    
+}
+
+hr{
+    color: black;
+}
+
+button{
+    cursor: pointer;
+    background-color:white; 
+    color: #8f897a;
+    font-weight: 600;
+    width: 100px;
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+}
